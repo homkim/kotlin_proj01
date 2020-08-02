@@ -1,3 +1,6 @@
+// Android와 Kotlin 기초붙터 배우기
+// https://developer.android.com/kotlin/learn
+
 fun main() {
     println("Hello kotlin\nthis is my first kotlin program !!")
 
@@ -29,4 +32,12 @@ fun main() {
     } else {
         "The answer eludes me."
     }
+    println(ansString)
+
+    var ansString2 = when {
+        count == 42 -> "I have the answer"
+        count > 35 -> "The answer is close"
+        else -> "The answer eludes me."
+    }
+    println(ansString2)
 }
