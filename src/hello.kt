@@ -10,13 +10,13 @@ fun main() {
     count = 15
     println("count = " + count)
 
-    var langName: String = "Kotlin"
+    val langName: String = "Kotlin"
     println("language name is " + langName)
 
-    var langUpper = langName.toUpperCase()
+    val langUpper = langName.toUpperCase()
     println("language Upper is " + langUpper)
 
-    var langNull2: String? = null
+    val langNull2: String? = null
     println("language null is " + langNull2)
 
     if(count == 42) {
@@ -34,7 +34,7 @@ fun main() {
     }
     println(ansString)
 
-    var ansString2 = when {
+    val ansString2 = when {
         count == 42 -> "I have the answer"
         count > 35 -> "The answer is close"
         else -> "The answer eludes me."
